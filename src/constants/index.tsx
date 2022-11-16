@@ -4,11 +4,11 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "login",
+    id: "signIn",
     title: "Sign In",
   },
   {
-    id: "register",
+    id: "signUp",
     title: "Sign Up",
   },
 ];

@@ -3,9 +3,16 @@ import styles from "./style";
 import { Navbar, Hero, Footer } from "./components";
 
 const App = () => (
-  <div className={`bg-blend-color ${styles.paddingX} ${styles.flexCenter}`}>
-    <div className={`${styles.boxWidth}`}>
-      <Navbar />
+  <div className="overflow-hidden">
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Navbar />
+      </div>
+    </div>
+    <div>
+      <div>
+        <Hero />
+      </div>
     </div>
   </div>
 );
